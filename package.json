@@ -1,22 +1,21 @@
 {
-  "name": "dropdown",
+  "name": "drpdn",
   "version": "1.0.0",
-  "description": "dropdown menu",
-  "main": "script.js",
+  "description": "html drowpdown menu",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "html",
-    "dropdown",
-    "menu"
-  ],
-  "author": "gabr1e11",
-  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gabr1el1/dropdownMenu.git"
   },
+  "keywords": [
+    "html",
+    "css"
+  ],
+  "author": "gabr1el1",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/gabr1el1/dropdownMenu/issues"
   },
