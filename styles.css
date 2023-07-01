@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navigation {
+  list-style-type: none;
+  display: flex;
+}
+
+.menu > * {
+  display: none;
+}
+
+.menu.visible > * {
+  display: block;
+}
+
+.navigation ul,
+ol {
+  list-style-type: none;
+}
+.menu a {
+  background: blueviolet;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+}
+.submenu {
+  position: relative;
+}
+.submenu ul,
+ol {
+  display: none;
+  min-width: 100px;
+}
+
+.submenu.visible > ul,
+ol {
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: -100px;
+}
